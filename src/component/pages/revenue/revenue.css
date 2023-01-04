@@ -1,0 +1,103 @@
+.revenue-container {
+    width: 100vw;
+    padding: 45vw 0vw 5vw 0vw;
+}
+.revenue-container .revenue-inner-container {
+      background: #161926;
+      box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      margin: 0vw 5vw;
+      padding: 5vw;
+    }
+      .revenue-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6vw;
+        text-align: center;
+        color: #ffffff;
+      }
+      .revenue-subtext {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        text-align: center;
+        color: #ffffff;
+        margin: 5vw 0vw 16vw 0vw;
+      }
+      @media (min-width: 992px) {
+        .revenue-title {
+          font-size: 2.8vw;
+        }
+        .revenue-subtext {
+          font-size: 2vw;
+          margin: 2vw 0vw 8vw 0vw;
+        }
+      }
+      .revenue-states-container 
+        .revenue-states-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* margin: 10vw 0vw 10vw 0vw; */
+        }
+          .revenue-state-value {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18vw;
+            background: linear-gradient(0.25turn, #ff7043 8%, #2d66f5 70%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+          .revenue-state-subtext {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4vw;
+            color: rgba(255, 255, 255, 0.5);
+            margin: 3vw 0vw;
+          }
+          .revenue-state-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 6vw;
+            color: #ffffff;
+          }
+        
+      @media (min-width: 992px) {
+        .revenue-states-container {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+          .revenue-states-box {
+            flex-direction: column;
+            margin: 0vw;
+          }
+            .revenue-state-value {
+              font-size: 8vw;
+            }
+            .revenue-state-subtext {
+              font-size: 1.5vw;
+              margin: 1vw 0vw;
+            }
+            .revenue-state-title {
+              font-size: 2vw;
+            }
+          }
+        
+      .revenue-up-arrow {
+        width: 20vw;
+        position: absolute;
+        left: 0vw;
+        bottom: 5vw;
+        z-index: -1;
+      }
+    
+  
+  @media (min-width: 992px) {
+    .revenue-container {
+      padding: 19vw 0vw 5vw 0vw;
+    }
+  }
+  

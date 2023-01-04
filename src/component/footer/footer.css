@@ -1,0 +1,138 @@
+.footer_container {
+    background-color: #f1f4ff;
+    align-items: center;
+    justify-content: space-between;
+    /* // justify-content: space-around; */
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+    position: relative;
+}
+  
+    .left_container 
+      .voosh_logo {
+        height: 20vw;
+        object-fit: contain;
+        /* //width: 150px; */
+      }
+  
+      .description {
+        font-size: 4.3vw;
+        color: #23283b;
+      }
+    
+  
+    .right_container {
+      width: 100%;
+      margin-top: 20vw;
+      display: flex;
+      flex-direction: column;
+    }
+  
+      .heading {
+        font-size: 8vw;
+        font-weight: bold;
+        color: #23283b;
+      }
+  
+      .subheading {
+        font-size: 4.5vw;
+        color: #23283b;
+        font-weight: 600;
+        margin-top: 4vw;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    
+  
+    .social_container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 6vw;
+    }
+  
+      .social_icon {
+        height: 10vw;
+        width: 10vw;
+        margin-right: 4vw;
+        cursor: pointer;
+      }
+    
+  
+    .signature_container {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      right: 3vw;
+      bottom: 5vh;
+    }
+  
+      
+      .footer_container .signature_container .signature_icon {
+        height: 10vw;
+        object-fit: contain;
+        width: 15vw;
+    }
+    
+  @media (min-width: 992px) {
+    .footer_container {
+      flex-direction: row;
+      justify-content: center;
+      padding: 6vw 10vw;
+    }
+    .footer_container .signature_container {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        right: 3vw;
+        bottom: 5vh;
+      }
+  
+      .footer_container .signature_container .signature_icon {
+          height: 3.5vw;
+  object-fit: contain;
+        }
+      
+  
+      .left_container {
+        margin-right: 4vw;
+        width: 35vw;
+      }
+      .footer_container .left_container .voosh_logo {
+          height: 6vw;
+        }
+        .description {
+          font-size: 1vw;
+          color: #23283b;
+        }
+      
+  
+      .right_container {
+        margin-top: 0vw;
+        width: fit-content;
+      }
+        .heading {
+          font-size: 2vw;
+        }
+  
+        .subheading {
+          font-size: 1vw;
+          margin-top: 1vw;
+        }
+      
+  
+      .social_container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vw;
+      }
+  
+        .social_icon {
+          height: 3vw;
+          width: 3vw;
+          object-fit: contain;
+          margin-right: 1vw;
+        }
+      }

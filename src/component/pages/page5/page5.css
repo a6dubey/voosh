@@ -1,0 +1,114 @@
+.aboutUs_container {
+  width: 98.9vw;
+  background-color: #f6f6f6;
+}
+  .about-us-details-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vw 10vw 0vw 10vw;
+  }
+    .about-us-text-container 
+      .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4vw;
+        color: #000000;
+        /* border-left: 10px solid #ff7043; */
+        padding-left: 3vw;
+        margin-bottom: 5vw;
+      }
+      .subtext {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3vw;
+        color: #000000;
+      }
+        .brand-name {
+          font-weight: 600;
+        }
+     
+
+    .about_us_bg {
+      margin-top: 5vw;
+      width: 100%;
+      object-fit: contain;
+    }
+  
+  @media (min-width: 992px) {
+    .about-us-details-component {
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      justify-content: space-between;
+      padding: 4vw 10vw 0vw 10vw;
+    }
+      .about-us-text-container {
+        max-width: 40vw;
+      }
+        .title {
+          font-size: 1.9vw;
+          color: #000000;
+          padding-left: 1.5vw;
+          margin-bottom: 2vw;
+        }
+        .subtext {
+          font-size: 1vw;
+        }
+      }
+
+      .about_us_bg {
+        width: 30vw;
+        object-fit: contain;
+        margin: 0px;
+      }
+  
+
+  .about-us-investor {
+    padding: 15vw 10vw 10vw 10vw;
+  }
+    .title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 4vw;
+      color: #000000;
+      /* border-left: 15px solid #2d66f5; */
+      padding-left: 5vw;
+      margin-bottom: 5vw;
+    }
+    .brands-container {
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+      .brand-image {
+        width: 20vw;
+        object-fit: contain;
+        margin: 1vw;
+      }
+   
+  @media (min-width: 992px) {
+    .about-us-investor {
+      padding: 4vw 10vw 4vw 10vw;
+    }
+    .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.9vw;
+        color: #000000;
+        /* border-left: 2px solid #2d66f5; */
+        padding-left: 1.5vw;
+        margin-bottom: 2vw;
+      }
+      .brands-container {
+        display: flex;
+        justify-content: center;
+      }
+        .brand-image {
+          width: 8vw;
+          object-fit: contain;
+          margin: 1vw;
+        }
+      }
+ 
